@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Potencia tu negocio, diseña tu logo y tu web a medida"
+    />
+    <meta name="keywords" content="AGENCIA, DISEÑO, WEB, LOGO, NEGOCIO, UI, UX, CONTACTO, EMAIL, MENSAJES" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <title>Contacto - Diseño Total</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--HEADER-->
+    <header>
+      <nav class="mb-4 navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand font-bold" href="index.html">Diseño Total</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent-4"
+            aria-controls="navbarSupportedContent-4"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"
+                  >Inicio <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portafolio.html">Portafolio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdownMenuLink-4"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Contacto
+                </a>
+                <div
+                  class="dropdown-menu dropdown-menu-right dropdown-cyan"
+                  aria-labelledby="navbarDropdownMenuLink-4"
+                >
+                  <a class="dropdown-item" href="./contacto.html">Contacto</a>
+                  <a class="dropdown-item" href="./contacto.html#map"
+                    >Ubicación</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--FIN HEADER-->
+
+    <main class="main-page">
+      <h1>Contacto</h1>
+
+      <div class="contact">
+        <!-- form con Bootstrap -->
+        <form action="" method="">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              id="contact-name"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Email</label>
+            <input type="email" class="form-control" id="contact-email" />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Asunto</label>
+            <input
+              type="text"
+              class="form-control"
+              id="contact-subject"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="form-group">
+            <label for="inputState">Sexo</label>
+            <select id="inputState" class="form-control">
+              <option selected>Seleccionar...</option>
+              <option>Hombre</option>
+              <option>Mujer</option>
+              <option>Indefinido</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="validationTextarea">Textarea</label>
+            <textarea
+              class="form-control"
+              id="validationTextarea"
+              placeholder="Ingrese su mensaje..."
+              required
+            ></textarea>
+          </div>
+          <div class="form-group form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >¿Desea recibir el Newsletter?</label
+            >
+          </div>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#exampleModal"
+          >
+            Limpiar el formulario
+          </button>
+          <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    El formulario fue limpiado
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="map" id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168878894538!2d-58.38375908423682!3d-34.60373446500705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1608680044502!5m2!1ses-419!2sar"
+          width="100%"
+          height="450"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+      </div>
+    </main>
+    <!-- FOOTER -->
+    <footer>&copy; Eduardo M. González</footer>
+    <!-- /FOOTER -->
+
+    <!-- Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

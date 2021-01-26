@@ -15,7 +15,9 @@ En las secciones se puede ver información de la empresa, sus servicios dados, e
 - Estilos con **Bootstrap** y preprocesador **Sass**
 
 
-## Estructura
-
-
 ## ScreenShots
+![index](https://user-images.githubusercontent.com/44064190/105787001-d62f8300-5f5c-11eb-9548-82282e77f503.png)
+![portafolio](https://user-images.githubusercontent.com/44064190/105787018-dcbdfa80-5f5c-11eb-8feb-2292bce6b3c5.png)
+![nosotros](https://user-images.githubusercontent.com/44064190/105787028-e5aecc00-5f5c-11eb-9354-79feb89912db.png)
+
+## Estructura

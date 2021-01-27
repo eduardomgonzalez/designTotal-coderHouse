@@ -298,6 +298,15 @@ tr:nth-child(even) {
 }
 
 /* Servicios Page */
+.servicios-page {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .acordeon {
   &__titulo {
     margin: 40px 0;
@@ -339,6 +348,11 @@ tr:nth-child(even) {
   margin: 0 auto;
 
   &__titulo {
+    padding-bottom: 40px;
+  }
+
+  &__intro {
+    font-size: 20px;
     padding-bottom: 40px;
   }
 
@@ -430,6 +444,13 @@ form {
   align-items: center;
   flex-direction: column;
   margin-top: 50px;
+  &__intro {
+    width: 80%;
+    padding-bottom: 40px;
+    p {
+      font-size: 20px;
+    }
+  }
 }
 
 input,
@@ -465,8 +486,11 @@ textarea#message {
 }
 
 .map {
-  margin-top: 50px;
+  margin-top: 70px;
   margin-bottom: 50px;
+  h3 {
+    padding-bottom: 30px;
+  }
 }
 
 /* Contacto responsive */

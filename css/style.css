@@ -207,6 +207,14 @@ tr:nth-child(even) {
   background-color: #0d4363; }
 
 /* Servicios Page */
+.servicios-page {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
 .acordeon__titulo {
   margin: 40px 0;
   padding-top: 30px; }
@@ -238,6 +246,9 @@ tr:nth-child(even) {
   /* Declaracion del mapa */
   /* bucle*/ }
   .portafolio__titulo {
+    padding-bottom: 40px; }
+  .portafolio__intro {
+    font-size: 20px;
     padding-bottom: 40px; }
   .portafolio__imagenes {
     display: flex;
@@ -303,6 +314,11 @@ form {
   align-items: center;
   flex-direction: column;
   margin-top: 50px; }
+  .contact__intro {
+    width: 80%;
+    padding-bottom: 40px; }
+    .contact__intro p {
+      font-size: 20px; }
 
 input,
 textarea,
@@ -331,8 +347,10 @@ textarea#message {
   font-size: large; }
 
 .map {
-  margin-top: 50px;
+  margin-top: 70px;
   margin-bottom: 50px; }
+  .map h3 {
+    padding-bottom: 30px; }
 
 /* Contacto responsive */
 @media (max-width: 1024px) {

@@ -18,8 +18,9 @@ En las secciones se puede ver información de la empresa, sus servicios dados, e
 ## ScreenShots
 
 ![index](https://user-images.githubusercontent.com/44064190/105787001-d62f8300-5f5c-11eb-9548-82282e77f503.png)
-![portafolio](https://user-images.githubusercontent.com/44064190/105787018-dcbdfa80-5f5c-11eb-8feb-2292bce6b3c5.png)
-![nosotros](https://user-images.githubusercontent.com/44064190/105787028-e5aecc00-5f5c-11eb-9354-79feb89912db.png)
+![nosotros](https://user-images.githubusercontent.com/44064190/106532918-e7820d80-64cf-11eb-9571-c032947022c9.png)
+![portafolio](https://user-images.githubusercontent.com/44064190/106532926-ebae2b00-64cf-11eb-9b7e-4b54c51f7353.png)
 
 ## Estructura
+
 ![estructura](https://user-images.githubusercontent.com/44064190/106532704-69be0200-64cf-11eb-8e7e-c54ae2ecbf88.png)

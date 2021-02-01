@@ -12,7 +12,7 @@ body {
   position: relative; }
 
 .titulo-h2 {
-  color: #185ba7;
+  color: #000000;
   font-size: 50px;
   padding-top: 45px; }
 
@@ -128,6 +128,12 @@ body {
   .nosotros__titulo {
     text-align: center;
     padding: 0px 60px 40px 60px; }
+    .nosotros__titulo button {
+      color: #ffffff;
+      border-color: #325980;
+      background-color: #429ae2; }
+      .nosotros__titulo button:hover {
+        background-color: #325980; }
   .nosotros__descripcion {
     display: flex;
     justify-content: space-evenly;
@@ -147,10 +153,16 @@ body {
 /* Nosotros Page */
 /*********************************** Servicios */
 .servicios {
+  background-color: #429ae2;
   padding: 40px; }
   .servicios__titulo {
     text-align: center;
     padding: 0px 60px 40px 60px; }
+    .servicios__titulo button {
+      color: #000000;
+      border-color: #325980; }
+      .servicios__titulo button:hover {
+        background-color: #325980; }
   .servicios__icons {
     display: grid;
     grid-template-columns: 1fr;
@@ -166,11 +178,12 @@ body {
       transform: scale(1.1); }
   .servicios i {
     transition: all 0.5s;
-    color: #0b9ef2;
+    color: #ece5e5;
     font-size: 6rem; }
   .servicios__icons-details h4 {
     padding: 20px 0 15px 0;
-    font-size: 1.4rem; }
+    font-size: 1.4rem;
+    font-weight: bold; }
 
 .main-page table li {
   color: #dee6eb; }
@@ -214,6 +227,12 @@ tr:nth-child(even) {
   font-size: 20px;
   padding-top: 40px;
   padding-bottom: 40px; }
+  .servicios-page button {
+    color: #ffffff;
+    border-color: #325980;
+    background-color: #429ae2; }
+    .servicios-page button:hover {
+      background-color: #325980; }
 
 .acordeon__titulo {
   margin: 40px 0;
@@ -221,6 +240,8 @@ tr:nth-child(even) {
 
 .accordion {
   margin: 0 auto;
+  margin-bottom: 60px;
+  padding-bottom: 80px;
   text-align: left;
   width: 80%; }
 
@@ -233,7 +254,7 @@ tr:nth-child(even) {
 /* Servicios responsive */
 @media (min-width: 1024px) {
   .servicios .servicios__icons {
-    grid-template-columns: repeat(2, 550px);
+    grid-template-columns: repeat(2, 350px);
     justify-items: center;
     justify-content: space-evenly; } }
 
@@ -247,6 +268,12 @@ tr:nth-child(even) {
   /* bucle*/ }
   .portafolio__titulo {
     padding-bottom: 40px; }
+    .portafolio__titulo button {
+      color: #ffffff;
+      border-color: #325980;
+      background-color: #429ae2; }
+      .portafolio__titulo button:hover {
+        background-color: #325980; }
   .portafolio__intro {
     font-size: 20px;
     padding-bottom: 40px; }
@@ -264,7 +291,7 @@ tr:nth-child(even) {
       margin: 10px auto;
       transition: all 0.5s; }
       .portafolio__imagenes-item:hover {
-        transform: scale(1.1);
+        transform: scale(1.2);
         cursor: pointer; }
       .portafolio__imagenes-item img {
         width: 90%; }
@@ -284,16 +311,33 @@ tr:nth-child(even) {
     border-color: #5a9aaa; }
 
 /* Portafolio Page */
+.portafolio-page {
+  padding-bottom: 100px; }
+
 @media (max-width: 1024px) {
   .portafolio .potafolio__imagenes div {
     width: 100%; } }
 
 /*********************************** Clientes */
 .clientes {
+  background-color: #185ba7;
   padding: 40px;
   text-align: center; }
   .clientes .clientes-titulo h2 {
     margin-bottom: 40px; }
+
+/*********************************** Promociones */
+.promociones {
+  padding: 2px;
+  text-align: center;
+  background-color: #429ae2; }
+  .promociones__titulo {
+    padding-bottom: 40px; }
+  .promociones__newsletter {
+    padding-bottom: 50px; }
+    .promociones__newsletter .btn-primary {
+      background-color: #000000;
+      border-color: #000000; }
 
 /*********************************** Contacto */
 .contacto {
@@ -301,6 +345,12 @@ tr:nth-child(even) {
   text-align: center; }
   .contacto .contacto-titulo {
     padding-bottom: 40px; }
+    .contacto .contacto-titulo button {
+      color: #ffffff;
+      border-color: #325980;
+      background-color: #429ae2; }
+      .contacto .contacto-titulo button:hover {
+        background-color: #325980; }
 
 /* Contacto page */
 form {
@@ -319,6 +369,8 @@ form {
     padding-bottom: 40px; }
     .contact__intro p {
       font-size: 20px; }
+  .contact footer a {
+    text-decoration: none; }
 
 input,
 textarea,
@@ -360,11 +412,26 @@ textarea#message {
       margin: 5px 0; } }
 
 /*********************************** Footer */
-footer {
+.footer {
   background-color: #000000;
   color: #ffffff;
   width: 100%;
   text-align: center;
-  padding: 40px;
-  position: absolute;
-  bottom: -190px; }
+  padding: 40px; }
+  .footer ul {
+    list-style: none; }
+  .footer a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.2s all; }
+    .footer a:hover {
+      color: #325980; }
+  .footer .facebook {
+    margin-right: 50px;
+    font-size: 30px; }
+  .footer .instagram {
+    font-size: 30px; }
+  .footer h3 {
+    color: #185ba7; }
+  .footer h4 {
+    color: #185ba7; }

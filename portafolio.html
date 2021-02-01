@@ -40,7 +40,19 @@
     <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
     <meta name="theme-color" content="#ffffff" />
     <title>Nuestro Portafolio - Diseño Total</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/f66fe7d1b4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Data AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Bootstrap -->
     <link
       rel="stylesheet"
@@ -48,6 +60,8 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!--HEADER-->
@@ -115,7 +129,12 @@
       <!-- PORTAFOLIO -->
       <section id="portafolio" class="portafolio portafolio-page">
         <div class="potafolio__imagenes">
-          <div class="portafolio__intro">
+          <div
+            class="portafolio__intro"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
             <p>
               Como nos conocen, somos jóvenes con experiencia en la web, con
               nuevas ideas, creativos, y, por sobre todo, con ganas de hacer un
@@ -128,42 +147,72 @@
               diseños. Siempre a la vanguardia.
             </p>
           </div>
-          <div class="portafolio__imagenes-item">
+          <div
+            class="portafolio__imagenes-item"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-delay="100"
+          >
             <img
               src="./assets/img/portafolio01.jpg"
               alt="imagen-portafolio"
               class="img-thumbnail imagen01"
             />
           </div>
-          <div class="portafolio__imagenes-item">
+          <div
+            class="portafolio__imagenes-item"
+            data-aos="zoom-in"
+            data-aos-duration="900"
+            data-aos-delay="200"
+          >
             <img
               src="./assets/img/portafolio02.jpg"
               alt="imagen-portafolio"
               class="img-thumbnail imagen02"
             />
           </div>
-          <div class="portafolio__imagenes-item">
+          <div
+            class="portafolio__imagenes-item"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
             <img
               src="./assets/img/portafolio03.jpg"
               alt="imagen-portafolio"
               class="img-thumbnail imagen03"
             />
           </div>
-          <div class="portafolio__imagenes-item">
+          <div
+            class="portafolio__imagenes-item"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-delay="100"
+          >
             <img
               src="./assets/img/portafolio03.jpg"
               alt="imagen-portafolio"
               class="img-thumbnail imagen04"
             />
           </div>
-          <div class="portafolio__imagenes-item">
+          <div
+            class="portafolio__imagenes-item"
+            data-aos="zoom-in"
+            data-aos-duration="900"
+            data-aos-delay="200"
+          >
             <img
               src="./assets/img/portafolio01.jpg"
               alt="imagen-portafolio"
               class="img-thumbnail imagen05"
             />
           </div>
-          <div class="portafolio__imagenes-item">
+          <div
+            class="portafolio__imagenes-item"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
             <img
               src="./assets/img/portafolio02.jpg"
               alt="imagen-portafolio"
@@ -176,8 +225,106 @@
     </main>
 
     <!-- FOOTER -->
-    <footer>&copy; Eduardo M. González</footer>
+    <footer id="footer" class="footer">
+      <div class="footer__top"
+           data-aos="fade-up"
+           data-aos-duration="800"
+           data-aos-delay="300"
+      >
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-3 col-md-6 footer-contact"              
+            >
+              <h3>Diseño Total</h3>
+              <p>
+                Monserrat,<br />
+                CABA,<br />
+                Argentina <br /><br />
+                <strong>Whatsapp</strong> +54 11 22334455<br />
+                <strong>Email:</strong> contacto@prueba.com<br />
+              </p>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 footer-links aos-init aos-animate"
+             
+            >
+              <h4>Links secciones</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="./index.html">Inicio</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="./nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="./servicios.html">Servicios</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Portafolio</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="./contacto.html">Contacto</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Políticas de privacidad</a>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 footer-links aos-init aos-animate"
+            >
+              <h4>Servicios</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> Diseño Web</li>
+                <li><i class="bx bx-chevron-right"></i> Diseño Gráfico</li>
+                <li><i class="bx bx-chevron-right"></i> Diseño UXUI</li>
+                <li><i class="bx bx-chevron-right"></i> Marketing Digital</li>
+              </ul>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 footer-links aos-init aos-animate"
+            >
+              <h4>Nuestras redes</h4>
+              <p>Seguinos en nuestras redes</p>
+              <div class="social-links mt-3">
+                <a
+                  href="https://www.facebook.com"
+                  class="facebook"
+                  target="blank"
+                  ><i class="fab fa-facebook-square"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/"
+                  class="instagram"
+                  target="blank"
+                  ><i class="fab fa-instagram-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container py-4">
+        <div class="copyright">
+          © Copyright <strong><span>Diseño Total</span></strong
+          >. Todos los derechos reservados
+        </div>
+        <div class="credits">Designed by <a href="https://eduardo-gonzalez-portafolio.now.sh/">Eduardo M. González</a></div>
+      </div>
+    </footer>
     <!-- /FOOTER -->
+
 
     <!-- Bootstrap -->
     <script
@@ -190,5 +337,10 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+    <!-- Data AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

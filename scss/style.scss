@@ -366,6 +366,7 @@ tr:nth-child(even) {
 
 .precios {
   width: 100%;
+  margin-top: 50px;
 
   &__contenedor {
     width: 100%;
@@ -376,14 +377,23 @@ tr:nth-child(even) {
 
     &-item {
       width: 300px;
+
       &-details {
+        background-color: #0d4363;
         text-align: center;
         border: 1px solid #f0f0f0;
-        color: #777;
-        font-size: 14px;
+        color: white;
+        font-size: 16px;
         padding-left: 0;
         margin-bottom: 30px;
         font-family: "Lato";
+        border-radius: 20px;
+        transition: all 0.5s;
+        &:hover {
+          transform: scale(1.04);
+          cursor: pointer;
+          background-color: #182024;
+        }
 
         li {
           list-style: none;
@@ -437,10 +447,10 @@ tr:nth-child(even) {
       /* items color */
       .p-green big,
       .p-green h3 {
-        color: #4c7737;
+        color: #73a35b;
       }
       .p-green button {
-        background: #4c7737;
+        background: #73a35b;
       }
       .p-yel big,
       .p-yel h3 {
@@ -458,10 +468,10 @@ tr:nth-child(even) {
       }
       .p-blue big,
       .p-blue h3 {
-        color: #3f4bb8;
+        color: #737dd8;
       }
       .p-blue button {
-        background: #3f4bb8;
+        background: #737dd8;
       }
     }
   }

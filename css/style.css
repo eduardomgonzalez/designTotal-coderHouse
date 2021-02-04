@@ -257,7 +257,8 @@ tr:nth-child(even) {
 
 /* Tabla de precios */
 .precios {
-  width: 100%; }
+  width: 100%;
+  margin-top: 50px; }
   .precios__contenedor {
     width: 100%;
     display: flex;
@@ -268,13 +269,20 @@ tr:nth-child(even) {
       width: 300px;
       /* items color */ }
       .precios__contenedor-item-details {
+        background-color: #0d4363;
         text-align: center;
         border: 1px solid #f0f0f0;
-        color: #777;
-        font-size: 14px;
+        color: white;
+        font-size: 16px;
         padding-left: 0;
         margin-bottom: 30px;
-        font-family: "Lato"; }
+        font-family: "Lato";
+        border-radius: 20px;
+        transition: all 0.5s; }
+        .precios__contenedor-item-details:hover {
+          transform: scale(1.04);
+          cursor: pointer;
+          background-color: #182024; }
         .precios__contenedor-item-details li {
           list-style: none;
           padding: 13px; }
@@ -310,9 +318,9 @@ tr:nth-child(even) {
             opacity: 0.9; }
       .precios__contenedor-item .p-green big,
       .precios__contenedor-item .p-green h3 {
-        color: #4c7737; }
+        color: #73a35b; }
       .precios__contenedor-item .p-green button {
-        background: #4c7737; }
+        background: #73a35b; }
       .precios__contenedor-item .p-yel big,
       .precios__contenedor-item .p-yel h3 {
         color: #ffbb42; }
@@ -325,9 +333,9 @@ tr:nth-child(even) {
         background: #e13c4c; }
       .precios__contenedor-item .p-blue big,
       .precios__contenedor-item .p-blue h3 {
-        color: #3f4bb8; }
+        color: #737dd8; }
       .precios__contenedor-item .p-blue button {
-        background: #3f4bb8; }
+        background: #737dd8; }
 
 /* /Tabla de precios */
 /* Servicios responsive */
